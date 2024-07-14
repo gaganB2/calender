@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calendar</h1>
+        <div class="calendar"></div>
+    </div>
+
+    <!-- Modal for adding events -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Event</h2>
+            <input type="text" id="eventInput" placeholder="Event name">
+            <button id="addEventBtn">Add Event</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
